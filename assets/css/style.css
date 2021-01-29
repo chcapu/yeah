@@ -1,0 +1,53 @@
+@font-face {
+  font-family: "terminal";
+  src: url('../font/terminal-grotesque.ttf');
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    cursor: default;
+}
+
+.content-wrapper {
+    width: 100%;
+    height: 100vh;
+    background: #FF4500;
+}
+
+.content {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    position: absolute;
+    top: 36%;
+    justify-content: center;
+}
+
+h3 {
+    display: block;
+    color: #ffffff;
+    font-family: terminal;
+    font-size: 24px;
+}
+
+.button {
+  display: inline-block;
+  padding: 14px;
+  margin-right: 5px;
+  margin-left: 5px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  background-color: #FF4500;
+  border-radius: 10px;
+  font-family: terminal;
+  font-size: 24px;
+  cursor: pointer;
+  color: #FDEF4B;
+  border: 2px solid #FDEF4B;
+}
+
+.button:hover {
+  background-color: #FDEF4B;
+  color: #9437FF;
+}
